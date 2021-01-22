@@ -1,3 +1,14 @@
+ <!-- Aplikasi CRUD
+ ************************************************
+ * Developer    : Indra Styawantoro
+ * Company      : Indra Studio
+ * Release Date : 1 Maret 2016
+ * Website      : http://www.indrasatya.com, http://www.kulikoding.net
+ * E-mail       : indra.setyawantoro@gmail.com
+ * Phone        : +62-856-6991-9769
+ * BBM          : 7679B9D9
+ -->
+ 
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -5,7 +16,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Aplikasi CRUD USER</title>
+    <title>Aplikasi CRUD User</title>
     
     <!-- favicon -->
     <link rel="shortcut icon" href="assets/img/favicon.png">
@@ -68,7 +79,7 @@
         <div class="navbar-header">
           <a class="navbar-brand" href="index.php">
             <i class="glyphicon glyphicon-check"></i>
-            Aplikasi CRUD PHP OOP dan MySQLi
+            Aplikasi CRUD USER
           </a>
         </div>
       </div> <!-- /.container-fluid -->
@@ -88,7 +99,7 @@
     
     <footer class="footer">
       <div class="container-fluid">
-        <p class="text-muted pull-left">&copy; 2016 Indra Studio</p>
+        <p class="text-muted pull-left">&copy; <?php echo date('Y-m-d')?> Ardian DP</p>
         <p class="text-muted pull-right ">Theme by <a href="http://www.getbootstrap.com" target="_blank">Bootstrap</a></p>
       </div>
     </footer>
